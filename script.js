@@ -18,9 +18,12 @@ const checkValidNumber = (input) => {
 
   const pTag = document.createElement('p');
   pTag.className = 'results-text';
-  phoneRegex.test(input)
-    ? (pTag.style.color = '#00471b')
-    : (pTag.style.color = '#4d3800');
+  if (phoneRegex.test(input)) {
+    pTag.style.color = '#00471b';
+  } else {
+    pTag.style.color = '#4d3800';
+  }
+  
   pTag.appendChild(
     document.createTextNode(
       `${phoneRegex.test(input) ? 'Valid' : 'Invalid'} US number: ${input}`,
