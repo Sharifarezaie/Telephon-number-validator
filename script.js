@@ -18,7 +18,7 @@ const checkValidNumber = (input) => {
 
   const pTag = document.createElement('p');
   pTag.className = 'results-text';
-  phoneRegex.test(input) 
+  phoneRegex.test(input)
     ? (pTag.style.color = '#00471b')
     : (pTag.style.color = '#4d3800');
   pTag.appendChild(

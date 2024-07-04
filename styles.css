@@ -26,7 +26,7 @@ h1 {
   margin: 15px 0;
   text-align: center;
 }
-  
+
 .phone-container {
   position: relative;
   background-color: #c59f47;
@@ -39,13 +39,13 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-  
+
 .phone-background {
   background-color: black;
   width: 100%;
   height: 25px;
 }
-  
+
 .phone-camera {
   background-color: #dfdfe2;
   width: 10px;
@@ -53,11 +53,11 @@ h1 {
   border-radius: 50%;
   margin: auto;
 }
-  
+
 label {
   margin: 10px auto 5px;
 }
-  
+
 #user-input {
   display: block;
   margin: 10px auto;
@@ -69,7 +69,7 @@ label {
   height: 42px;
   font-size: 16px;
 }
-  
+
 .phone-footer {
   background-color: black;
   width: 100%;
@@ -80,29 +80,28 @@ label {
   align-items: center;
   justify-content: center;
 }
-  
+
 .btn-styles {
   cursor: pointer;
   width: 100px;
   margin: 10px;
   color: #0a0a23;
   font-size: 18px;
-  background-color: #ffffff;
-  background-image: linear-gradient(#ffffff, #928d86);
+  background-color: #fff;
+  background-image: linear-gradient(#fff, #928d86);
   border-color: #ffffff;
   border-width: 3px;
 }
-  
+
 #results-div {
   overflow-y: auto;
   height: 265px;
   width: 100%;
 }
-  
+
 .results-text {
   font-size: 1.2rem;
   padding: 5px;
   text-align: center;
   margin: 10px 0;
 }
-  
