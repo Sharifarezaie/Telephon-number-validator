@@ -4,6 +4,7 @@
 
 > Provide a detailed overview of your project. Explain what it does, why it is useful, and any other relevant information.
 
+This is a program that check id if input value is a valid number or no.
 Examples;
 Iwork index.html styles.css script.js
 
